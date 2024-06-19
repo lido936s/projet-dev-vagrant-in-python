@@ -1,7 +1,7 @@
 "# projet-dev-vagrant-in-python" 
 Ce projet et en cours de dev donc pas encore terminé phase de test prévue suivant l'infrastrucutre complété 
 Neccesite pour cela le logiciel drawio >  
-- lien de l'infrastructure : infra projet.drawio > https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/Infrastructure_Projet.drawio 
+- lien de l'infrastructure : infra projet.drawio > https://app.diagrams.net/#Hlido936s%2Fprojet-dev-vagrant-in-python%2Fmain%2FInfrastructure_Projet.drawio#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
 
 # prerequis 
 - faire un script pour creer une VM avec python sur Vagrant 
