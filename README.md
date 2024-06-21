@@ -28,7 +28,7 @@ Neccesite pour cela le logiciel drawio >
 # Redaction du script en inserant quelques variables sympathique pour structurer notre VM 
 
 - definir les variables essentielles 
-- configurer le réseau 
+- configurer un réseau en NAT pour une VLAN nommée LAN-DEV avec python
 - Installer sur le repertoire OS notre VM via le fichier de définitions de vagrant : Vagrantfile 
 
 # Automatisation
