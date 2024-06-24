@@ -49,12 +49,16 @@ vagrant init m88v2/kubuntu
 - Déclarer les variables et choisir des variables critiques comme la gestion du réseau et de la RAM .
 - Commenter les variables ainsi que les commandes quelles éxecutes .
 - Mettre en place les boucles pour l'interaction entre les differents organes de commande et d'effecteurs .
-- Mise en place de scripts dans la création de machine virtuel gràce au fichier de définitions de vagrant . 
-# Phase de verifications : Etablir des regles en matiére de fonctionnement des scripts .
+- Mise en place de scripts dans la création de machine virtuel gràce au fichier de définitions de vagrant .
+ 
+# Phase de verifications : Etablir des régles en matiére de fonctionnement des scripts .
+En redactions car le projet n'est pas encore terminé cela dépend de l'action .
+
 -
 -
 -
-# Phase de test 
+
+# Phase de test : Permettre que le projet soit fonctionnel et surtout que se soient bien  
 
 - Faire un script qui fasse la vérification en cas de bug sur certaines variables critique .
 - Isoler l'ensemble du projet dans une nouvelle branch nommé test .
