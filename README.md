@@ -38,6 +38,7 @@ vagrant init m88v2/kubuntu
 # Redaction du script en inserant quelques variables sympathique pour structurer notre VM 
 
 - Definir le besoins essentiel en ressource mémoire et CPU dont la VM ai besoins en fonction des logiciels et conteneurs installées . 
+> https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/Definir%20le%20besoins%20essentiel%20en%20ressource%20m%C3%A9moire%20et%20CPU%20dont%20la%20VM%20ai%20besoins%20en%20fonction%20des%20logiciels%20et%20conteneurs%20install%C3%A9es.txt
 - Mise en place d'un scripts qui gére les variables .
 - Configurer un réseau en NAT pour une VLAN nommée LAN-DEV avec python > https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/Vlan-Dev.py
 - Mettre en place dans un scripts la partie ssh afin que depuis l'exterieur seul les dev avec un mot de passe peuvent intéragir avec l'ensemble du projet .
