@@ -1,0 +1,15 @@
+1.Installer Docker : Assurez-vous d'avoir Docker installé sur votre système. 
+Vous pouvez suivre les instructions d'installation de Docker pour votre système d'exploitation depuis le site officiel de Docker.
+
+2.Installer Portainer.io : Vous pouvez déployer Portainer en tant que conteneur Docker en exécutant la commande suivante dans votre terminal :
+
+docker run -d -p 9000:9000 --restart always -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+
+Cela va télécharger l'image Portainer depuis Docker Hub et démarrer l'application Portainer sur le port 9000 de votre machine.
+
+3.Accéder à Portainer : Ouvrez votre navigateur web et accédez à l'URL http://localhost:9000 (ou remplacez localhost par l'adresse IP de votre machine si vous utilisez un système distant). 
+Vous serez invité à créer un mot de passe administrateur pour Portainer.
+
+4.Configurer Docker avec Portainer : Une fois connecté à Portainer, suivez les instructions pour configurer Docker avec Portainer. 
+Vous pourrez alors gérer vos conteneurs Docker, images, réseaux, volumes, etc., via l'interface conviviale de Portainer.
+Ces étapes devraient vous permettre de mettre en place Docker en utilisant Portainer.io. 

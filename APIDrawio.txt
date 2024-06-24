@@ -1,0 +1,19 @@
+Pour utiliser Draw.io dans une application Python, vous pouvez utiliser l'API Draw.io qui permet d'intégrer des diagrammes dans des applications tierces. 
+
+Voici les étapes pour l'installer :
+
+1.Accédez à la documentation de Draw.io pour obtenir des informations sur l'API Draw.io : https://desarrolladores.draw.io/
+
+2.Suivez les instructions fournies dans la documentation pour créer une application cliente et obtenir un token d'accès.
+
+3.Utilisez le token d'accès pour envoyer des requêtes à l'API Draw.io depuis votre application Python.
+
+4.Utilisez les méthodes fournies par l'API Draw.io pour créer, modifier et afficher des diagrammes.
+
+
+Voici un exemple de base pour vous montrer comment utiliser l'API Draw.io dans une application Python 
+
+import requests
+
+# URL de base de l'API Draw.io
+base_url = "https://api.diagrams.net/v1"

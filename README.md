@@ -29,7 +29,6 @@ Neccesite pour cela le logiciel drawio >
 
 - definir les variables essentielles 
 - configurer un réseau en NAT pour une VLAN nommée LAN-DEV avec python
-lien : https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/Vlan-Dev.py
 - Installer sur le repertoire OS notre VM via le fichier de définitions de vagrant : Vagrantfile 
 
 # Automatisation
