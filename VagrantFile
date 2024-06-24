@@ -1,0 +1,35 @@
+Vagrant.configure("2") do |config|
+  # definir l'hyperviseur choisi (virtualbox ou libvirt)
+  config.vm.provider "virtualbox" do |vb|
+    # Configuration spécifique à VirtualBox
+    vb.memory = "2048"
+    vb.cpus = 2
+  end
+
+  config.vm.provision "shell", inline: <<-SHELL
+    # installer les outils neccessaires
+    apt-get update
+    apt-get install -y curl
+    # Exécuter la configuration réseau pour le LAN-DEV via le script .sh 
+    curl -sSLhttps://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/Vlan-Dev.py > https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/Vlan-Dev.py
+    chmod +x https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/Vlan-Dev.py
+    https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/Vlan-Dev.py
+
+    # Exécuter l'installation de la VM via le script .sh
+    curl -sSL https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/install_vm.py > https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/install_vm.py
+    chmod +x https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/install_vm.py
+    https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/install_vm.py
+
+    # Exécuter le script d'installation et de configuration de docker via le script .sh
+    curl -sSL https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/Installing%20Docker%20Engine%20on%20Debian%2011.sh >  https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/Installing%20Docker%20Engine%20on%20Debian%2011.sh
+    chmod +x  https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/Installing%20Docker%20Engine%20on%20Debian%2011.sh
+    https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/Installing%20Docker%20Engine%20on%20Debian%2011.sh
+
+
+    # Ajoutez d'autres commandes ou scripts personnalisés ici
+
+  SHELL
+
+  # ...
+
+end
