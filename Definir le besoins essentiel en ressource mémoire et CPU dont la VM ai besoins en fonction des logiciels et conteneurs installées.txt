@@ -1,0 +1,22 @@
+Pour déterminer les besoins essentiels en ressources mémoire et CPU d'une machine virtuelle (VM) en fonction des logiciels et des conteneurs installés, vous devrez prendre en compte plusieurs facteurs tels que la quantité de mémoire requise par chaque logiciel/conteneur, la charge de travail prévue, et les ressources minimales recommandées par les fournisseurs des logiciels/conteneurs.
+
+Voici quelques recommandations générales pour estimer les besoins en ressources d'une VM en fonction des logiciels et des conteneurs installés :
+
+1.Mémoire (RAM) :
+
+-Additionnez la mémoire recommandée pour chaque logiciel/conteneur installé.
+-Assurez-vous de laisser de la marge pour la mémoire du système d'exploitation et pour les processus système.
+-Considérez également l'utilisation de la mémoire swap si la quantité de mémoire physique est limitée.
+
+2.Processeur (CPU) :
+
+-Estimez le nombre de cœurs de CPU voulus pour chaque logiciel/conteneur.
+-Prenez en compte la charge de travail prévue et la capacité de traitement nécessaire.
+-Consultez les recommandations des fournisseurs des logiciels/conteneurs pour les besoins en CPU.
+
+3.Stockage :
+
+-Prévoyez suffisamment d'espace de stockage pour les données des logiciels/conteneurs.
+-Utilisez des disques SSD pour de meilleures performances en cas de charges intensives en lecture/écriture.
+-Il est important de surveiller régulièrement les performances de la VM une fois qu'elle est en cours d'exécution pour ajuster les ressources si nécessaire. Les besoins en ressources peuvent varier en fonction de l'évolution des charges de travail et des exigences des logiciels.
+
