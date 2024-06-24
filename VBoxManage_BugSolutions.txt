@@ -1,0 +1,9 @@
+https://github.com/hashicorp/vagrant/issues/8687
+
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "68358cf9-2838-44cb-b38b-540b6b6298a0", "--type", "headless"]
+
+Stderr: VBoxManage.exe: error: The virtual machine 'Projet_dev_VM_default_1719243362367_75028' has terminated unexpectedly during startup with exit code -1073741819 (0xc0000005)
+VBoxManage.exe: error: Details: code E_FAIL (0x80004005), component MachineWrap, interface IMachine
