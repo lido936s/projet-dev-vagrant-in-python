@@ -2,7 +2,7 @@
 
 Ce projet et en cours de dev donc pas encore terminé phase de test prévue suivant l'infrastrucutre complété 
 
-Langage employé > Powershell, Python et dans le futur du javascript pour une application via le web pour une interface de gestion de notre VM .
+Langages employées > Powershell, Python et dans le futur du javascript pour une application via le web pour une interface de gestion de notre VM .
 
 Neccesite pour cela le logiciel drawio >  
 - lien de l'infrastructure : infra projet.drawio > https://app.diagrams.net/#Hlido936s%2Fprojet-dev-vagrant-in-python%2Fmain%2FInfrastructure_Projet.drawio#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
