@@ -14,23 +14,32 @@ Neccesite pour cela le logiciel drawio >
 - installer pip > python -m ensurepip --upgrade
 - installer vagrant sous Python : pip install vagrant > installation via ce fichier : Install Vagrant sous Python.py
 - installer python d'une version supporter par vagrant 
+- Installer docker sur la machine virtuel afin de pouvoir y inserer un contrôle via portainer.io > https://www.cherryservers.com/blog/install-portainer-ubuntu
 - faire un répertoire > Projet_dev_VM en local sur une machine Hôte afin d'y stocker l'ensemble des éléménts néccésaire afin d'éfféctuer les différentes taches notamment l'éditions des scripts et 
   toute autres support .
+  -
+  -
+  -
 
 # Création de deux repertoires DATA et OS 
 
 - DATA : sera un répertoire de dévellopement de notre infra ainsi que la partie réseau
 - OS : sera identique à celui de l'OS mais aura pour objectif de définir la machine virtuel et sont systéme d'exploitation
+ > voir le fichier python : https://github.com/lido936s/projet-dev-vagrant-in-python/blob/main/CreateDisk_DATA%26OS.py
+ -
+ -
 
 # Mise en réseau de l'infrastructure dans le cadre du bon déroulement de notre projet 
 - La machine virtuel doit étres dans un réseau qui soit excessible depuis l'extérieur pour une simple raison > Portainer.io 
 - Faire un tableau d'adressage | + adresse réseau et plage attribuable | ainsi que l'équipement nommé qui distribue l'information .
 - Definir le bon protocole suivant l'information transmisse : exemple > DHCP : UDP partie cliente 
+- Creer une adresse ip en statique pour gérer l'infrastructure avec portainer.io 
 -
 
 # Mise en place de vagrant dans notre projet pour cela on auras besoins d'une nouvelle box 
 
 - choix de l'OS > cela dépend de votre infra qui vous auriez definit dans le cadre futur pour une mise en place de docker via un portainer.io
+- Rectification du projet on vas plutot utillisé une box > 
 -NewBoxe > Distribution Kubuntu 
 vagrant init m88v2/kubuntu
  vagrant up
@@ -51,10 +60,14 @@ vagrant init m88v2/kubuntu
 - Commenter les variables ainsi que les commandes quelles éxecutes .
 - Mettre en place les boucles pour l'interaction entre les differents organes de commande et d'effecteurs .
 - Mise en place de scripts dans la création de machine virtuel gràce au fichier de définitions de vagrant .
+-
+-
  
 # Phase de verifications : Etablir des régles en matiére de fonctionnement des scripts .
 En redactions car le projet n'est pas encore terminé cela dépend de l'action .
 
+-
+-
 -
 -
 -
