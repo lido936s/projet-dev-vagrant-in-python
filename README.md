@@ -11,7 +11,7 @@ Neccesite pour cela le logiciel drawio >
 
 - faire un script pour creer une VM avec python sur Vagrant 
 - definir le systéme d'exploitation via les Box de vagrant : https://app.vagrantup.com/m88v2/boxes/kubuntu
-- installer pip 
+- installer pip > python -m ensurepip --upgrade
 - installer vagrant sous Python : pip install vagrant > installation via ce fichier : Install Vagrant sous Python.py
 - installer python d'une version supporter par vagrant 
 - faire un répertoire > Projet_dev_VM en local sur une machine Hôte afin d'y stocker l'ensemble des éléménts néccésaire afin d'éfféctuer les différentes taches notamment l'éditions des scripts et 
