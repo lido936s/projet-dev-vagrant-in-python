@@ -34,7 +34,7 @@ Neccesite pour cela le logiciel drawio >
 - Faire un tableau d'adressage | + adresse réseau et plage attribuable | ainsi que l'équipement nommé qui distribue l'information .
 - Definir le bon protocole suivant l'information transmisse : exemple > DHCP : UDP partie cliente 
 - Creer une adresse ip en statique pour gérer l'infrastructure avec portainer.io 
--
+- utilisation de netplan pour gérer les interfaces réseau de notre VM. 
 
 # Mise en place de vagrant dans notre projet pour cela on auras besoins d'une nouvelle box 
 
@@ -66,8 +66,8 @@ vagrant init m88v2/kubuntu
 # Phase de verifications : Etablir des régles en matiére de fonctionnement des scripts .
 En redactions car le projet n'est pas encore terminé cela dépend de l'action .
 
--
--
+- faire un VLAN nommé LAN CLIENT 
+- Utiliser quelques commandes trouvées ici > https://fr-wiki.ikoula.com/fr/Quelques_%C3%A9l%C3%A9ments_utiles_pour_une_v%C3%A9rification_de_l%27int%C3%A9grit%C3%A9_de_son_syst%C3%A8me_sous_Linux
 -
 -
 -
