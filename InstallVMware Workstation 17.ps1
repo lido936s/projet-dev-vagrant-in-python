@@ -1,5 +1,5 @@
 # install VMware Workstation 17 sur Windows 10 
-
+https://softwareupdate.vmware.com/cds/vmw-desktop/ws/17.5.2/23775571/windows/core/ 
 # Installation de VMware Workstation 17 version 17.5.2-23775571 pour Windows.
 
 # Téléchargez le fichier d'installation depuis le site Web de VMware Workstation 17.5.2-23775571 et l'exécutez avec l'argument /S pour lancer l'installation.
