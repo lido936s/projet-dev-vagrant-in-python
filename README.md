@@ -78,7 +78,7 @@ En redactions car le projet n'est pas encore terminé cela dépend de l'action .
 - Isoler l'ensemble du projet dans une nouvelle branch nommé test .
 - Si les test sont concluant il faut mettre en place une nouvelle branch sur le github afin de la nommé "release"
 
-# Faire une release
+# Faire une release 
 - Mise en production via une machine virtuel masterisé avec seulement notre projet fonctionnant dedans .
 
 
